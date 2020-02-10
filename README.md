@@ -48,4 +48,6 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] When you have completed the website, submit your repository URL
 
-The URL you used for layout is: 
+URL for hosted site is: https://te-marketing-website.netlify.com/
+
+The URL you used for layout is: www.slack.com 

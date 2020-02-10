@@ -500,6 +500,7 @@ footer .socialLinks .socials a:hover {
 	.reviews a {
 		display: block;
 		text-align: center;
+		color: #611f69;
 	}
 
 	/*	TRY   */
@@ -551,6 +552,11 @@ footer .socialLinks .socials a:hover {
 	
 	.navBig ul li {
 		padding: 1rem;
+	}
+
+	.navLinks li:hover {
+		color: #1582AB;
+		border-bottom: 1px solid #1582AB;
 	}
 
 	
