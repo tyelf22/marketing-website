@@ -167,6 +167,10 @@ main p {
 	text-align: left;
 }
 
+main a {
+	color: #246FA9;
+}
+
 main img {
 	height: 20rem;
 	display: block;
@@ -401,6 +405,7 @@ footer .socialLinks .socials a:hover {
 		height: auto;
 	}
 
+
 	.mainContent h1 {
 		font-size: 6.4rem;
 	}
@@ -500,7 +505,7 @@ footer .socialLinks .socials a:hover {
 	.reviews a {
 		display: block;
 		text-align: center;
-		color: #611f69;
+		color: #246FA9;
 	}
 
 	/*	TRY   */
