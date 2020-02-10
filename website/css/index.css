@@ -51,6 +51,10 @@ table {
 html {
 	font-size: 62.5%;
 }
+body {
+	overflow-x: hidden;
+	font-family: 'Arimo', sans-serif;
+}
 
 .container {
 	max-width: 1000px;
@@ -60,8 +64,523 @@ html {
 
 h1 {
 	font-size: 4rem;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+p {
+	line-height: 2.5rem;
 }
 
 h1,h2,h3,h4 {
 	margin: 20px 0;
+}
+
+/*	 GLOBAL ELEMENTS	*/
+
+button:focus {
+	border: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+.btnPurp{
+	background-color: #611f69;
+	color: white;
+	border: none;
+	padding: 2rem;
+	width: 20rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0.3rem;
+	display: block;
+	margin: 1rem 0;
+}
+
+.btnPurp:hover {
+	background-color: #4A154B;
+}
+
+.btnTrans {
+	background-color: transparent;
+	border: 1px solid #4A154B;
+	color: #4A154B;
+	padding: 2rem;
+	width: 20rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0.3rem;
+	display: block;
+	margin: 1rem 0;	
+}
+
+.btnTrans:hover {
+	border: 2px solid #4A154B;
+	margin: 0.9rem 0;
+}
+
+/*	NAVIGATION	*/
+nav {
+	display: flex;
+	align-items: center;
+	padding: 0 4rem;
+}
+
+nav > a {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+nav > img {
+	height: 6rem;
+	cursor: pointer;
+	padding: 2rem 0;
+}
+
+nav > .navBig {
+	display: none;
+}
+
+
+
+/*	MAIN	*/
+
+main {
+	background-color: #E6E1DD;
+	margin: 0 -200rem;
+	padding: 6rem 200rem;
+
+}
+
+.mainContent {
+	padding: 2rem 4rem;
+}
+
+main p {
+	text-align: left;
+}
+
+main img {
+	height: 20rem;
+	display: block;
+	margin: 0 auto;
+}
+
+/*	VIDEO	*/
+.video {
+	margin-top: 10rem;
+	padding: 0 4rem;
+}
+
+.video h2, .video p{
+	text-align: center;
+}
+.video img {
+	display: block;
+	margin: 2rem auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.videoInfoCards {
+	margin: 5rem 0;
+}
+.videoInfoCards p {
+	text-align: left;
+}
+
+.videoInfoCards p:nth-child(2) {
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+hr{
+	margin: 0 -200rem;
+	padding: 0 200rem;
+	border: 0.05rem solid #ccc;;
+}
+
+/*	Side By Side 	*/
+
+.sideBySide {
+	padding: 0 4rem;
+}
+
+.sideImage {
+	margin: 1rem;
+}
+
+.sideImage img {
+	display: block;
+	width: 100%;
+	max-width: 60rem;
+	margin: 4rem auto;
+}
+
+.sideText p{
+	text-align: left;
+}
+
+/*	REVIEWS 	*/
+
+.reviews {
+	background-color: #F5F5F5;
+	margin: 0 -200rem;
+    padding: 6rem 200rem;
+}
+
+.reviewsWrapper{
+	padding: 0 4rem;
+}
+
+.reviews h2, p {
+	text-align: left;
+}
+
+.card {
+	height: 60rem;
+	width: 28rem;
+	background-color: white;;
+	margin: 6rem auto;
+	box-shadow: 0 5px 20px 0 #ccc;
+}
+.cardImage img {
+	display: block;
+	height: 30rem;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.cardContent {
+	padding: 1rem;
+}
+
+.cardContent p:nth-child(2) {
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+/*	TRY	 */
+
+.try {
+	background-color: #4A154B; 
+	color: white;
+	text-align: center;
+	margin: 0 -200rem;
+    padding: 6rem 200rem;
+}
+
+.tryWrapper {
+	padding: 2rem 4rem;
+}
+
+.try h2 {
+	margin: 0;
+	padding: 1rem;
+}
+
+.try button {
+	margin: 1rem auto;
+
+}
+
+.btnWhite {
+	background-color: white;
+	color: #4A154B;
+	border: none;
+	padding: 2rem;
+	width: 20rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0.3rem;
+	display: block;
+	margin: 1rem 0;
+}
+
+.btnWhite:hover {
+	padding: 1.9rem;
+}
+
+.btnTransPurp {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	padding: 2rem;
+	width: 20rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0.3rem;
+	display: block;
+	margin: 1rem 0;
+}
+
+.btnTransPurp:hover {
+	border: 2px solid white;
+	margin: 0.9rem 0;
+}
+
+
+/* FOOTER */
+
+footer .socialLinks {
+	background-color: #F5F5F5;
+	font-size: 1.4rem;
+	margin: 0 -200rem;
+	padding: 3rem 200rem;
+	
+}
+
+footer .socialLinks .terms {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4rem;
+	justify-content: center;
+	cursor: pointer;
+}
+
+footer .socialLinks .terms li {
+	margin: 1rem;
+	font-weight: bold;
+}
+
+footer .socialLinks .socials {
+	display: flex;
+	margin-left: auto;
+	padding: 0 4rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer .socialLinks .socials a {
+	margin: 1rem;
+	font-weight: bold;
+}
+
+footer .socialLinks .socials a:hover {
+	color: #1582AB;
+}
+
+.copyright {
+	background-color: #EBEAEB;
+	font-size: 1.2rem;
+	margin: 0 -200rem;
+    padding: 1rem 200rem;
+}
+
+.copyright p {
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 500px) {
+	h2 {
+		font-size: 4rem;
+	}
+
+	main {
+		display: flex;
+		align-items: center;
+	}
+	
+	.mainContent {
+		order: 1;
+	} 
+	
+	.mainPic {
+		order: 2;
+	}
+	
+	main img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.mainContent h1 {
+		font-size: 6.4rem;
+	}
+	
+	.btnPurp{
+		display: inline;
+	}
+	
+	.btnTrans {
+		display: inline;
+	}
+
+	/*	REVIEWS	*/
+	.card {
+		height: 28rem;
+		width: 55rem;
+		display: flex;
+		background-color: white;;
+		margin: 6rem auto;
+		box-shadow: 0 5px 20px 0 #ccc;
+	}
+	.cardImage img {
+		display: block;
+		height: 100%;
+		margin: 0 auto;
+		width: 25rem;
+	}
+	
+	.cardContent {
+		padding: 1rem 3rem;
+	}
+	
+	.cardContent p:nth-child(2) {
+		margin-top: 1rem;
+		font-weight: bold;
+	}
+
+	/* VIDEO */
+	.videoInfo{
+		display: flex;
+	}
+
+	.videoInfoCards {
+		margin: 5rem 2rem;
+	}
+	.videoInfoCards p {
+		text-align: left;
+	}
+	
+	.videoInfoCards p:nth-child(2) {
+		margin-bottom: 1rem;
+		font-weight: bold;
+	}
+
+	/*	Side By Side 	*/
+
+	.sideBySide {
+		padding: 0 4rem;
+	}
+
+	.sideOne {
+		display: flex;
+		align-items: center;
+	}
+
+	.sideTwo {
+		display: flex;
+		align-items: center;
+	}
+
+	.sideTwo > .sideText {
+		order: 2;
+		
+	}
+
+	.sideTwo img {
+		order: 1;
+	}
+
+	.sideImage {
+		margin: 1rem;
+	}
+
+	.sideImage img {
+		display: block;
+		width: 100%;
+		max-width: 60rem;
+		height: auto;
+		margin: 4rem auto;
+	}
+
+	/* REVIEWS */
+	.reviews h2, p {
+		text-align: center;
+	}
+
+	.reviews a {
+		display: block;
+		text-align: center;
+	}
+
+	/*	TRY   */
+	.btnWhite {
+		display: inline;
+		width: 20rem;
+	}
+	
+	.btnTransPurp {
+		display: inline;
+		width: 20rem;
+	}
+
+
+
+	/*	FOOTER  */
+	footer .socialLinks {
+		display: flex;
+		align-items: center;
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+
+	/* nav */
+
+	nav > a {
+		display: none !important;
+	}
+
+	nav > .navBig {
+		display: flex;
+	}
+
+	.navBig {
+		display: flex;
+		padding: 0 4rem;
+		align-items: center;
+		font-size: 1.6rem;
+		width: 100%;
+	}
+	
+	.navBig ul {
+		display: flex;
+		margin: 2rem 1rem;
+		align-items: center;
+	}
+	
+	.navBig ul li {
+		padding: 1rem;
+	}
+
+	
+	.navBig > .signUp {
+		margin-left: auto;
+	}
+	
+	.signUp button {
+		background-color: #611f69;
+		color: white;
+		border: none;
+		padding: 1.5rem;
+		width: 15rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		border-radius: 0.3rem;
+	}
+
+	.signUp button:hover {
+		background-color: #4A154B;
+	}
+
+
+
+
+	
+
+
+
+
+
+
 }
