@@ -60,6 +60,11 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 	font-size: 2rem;
+
+	position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
 }
 
 h1 {
